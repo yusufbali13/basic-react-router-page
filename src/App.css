@@ -8,6 +8,27 @@
 .nb {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #35424a;
+  color: white;
+}
+
+.span {
+  color: #a9508b;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 24px !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+  font-weight: 700;
+}
+.active {
+  color: #a9508b !important;
 }
 
 /********* header */

@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-md navbar-light nb">
+    <nav className="navbar navbar-expand-md nb">
       <div className="container-fluid">
-        <p>
-          <span className="span">Clarusway It School</span>Web Design
-        </p>
+        <Link to="/" className="navbar-brand">
+          <p className="text-light h2">
+            <span className="span">Clarusway It School</span> Web Design
+          </p>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
