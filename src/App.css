@@ -33,6 +33,15 @@
 
 /********* header */
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #35424a;
+  height: 150px;
+  color: white;
+}
+
 /********* main */
 
 /********* footer */
