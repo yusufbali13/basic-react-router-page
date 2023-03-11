@@ -35,7 +35,7 @@ SOLUTION
 │    │     ├── Css.js
 │    │     └── Logo.js
 │    ├── router
-│    │     └── AppRouter.js│       
+│    │     └── AppRouter.js│
 │    ├── App.js
 │    ├── App.css
 │    ├── index.js
