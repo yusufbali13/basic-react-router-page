@@ -98,6 +98,38 @@ textarea {
   border: none;
 }
 
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  gap: 30px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 330px;
+  text-align: center;
+}
+
+.img {
+  width: 90px;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
 /********* footer */
 .footer {
   display: flex;
