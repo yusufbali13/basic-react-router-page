@@ -45,7 +45,7 @@
 
 .buton {
   color: white;
-  background-color: orangered;
+  background-color: #e8491d;
   border: none;
   border-radius: 5px;
   padding: 8px 20px;
@@ -57,10 +57,46 @@ input {
 }
 
 .banner {
-  background: url(./assets/showcase.jpg);
+  background: url(./assets/showcase.jpg) center center no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+h1 {
+  font-size: 60px !important;
 }
 
 /********* main */
+
+.container {
+  display: flex;
+  gap: 50px;
+  margin: 20px auto;
+}
+
+.dark {
+  background-color: #35424a;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.light {
+  background-color: #e6e6e6;
+  margin: 10px;
+  padding: 20px;
+}
+
+textarea {
+  padding: 0 58px;
+  border-radius: 5px;
+  border: none;
+}
 
 /********* footer */
 .footer {
