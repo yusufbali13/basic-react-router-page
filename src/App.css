@@ -6,6 +6,7 @@
 
 /********* navbar */
 .nb {
+  display: flex;
 }
 
 /********* header */
