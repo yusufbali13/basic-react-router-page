@@ -138,3 +138,12 @@ textarea {
   height: 150px;
   color: white;
 }
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  color: red;
+}
